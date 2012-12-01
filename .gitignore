@@ -1,6 +1,0 @@
-*.class
-*.jar
-.classpath
-.project
-.settings/
-ivy/
