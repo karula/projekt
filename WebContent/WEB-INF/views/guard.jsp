@@ -11,6 +11,8 @@
 		</c:when>
 		<c:otherwise>
 			<form method="POST">
+			\
+			<h1>Valvurid</h1>
 				<label>Nimi</label>
 				<input type="text" name="name" /> <br />
 				<label>Vanus</label>
