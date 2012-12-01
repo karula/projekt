@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://ivy.webmedia.int/ivy-doc.xsl"?>
+<ivy-module version="1.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://ant.apache.org/ivy/schemas/ivy.xsd">
+
+	<info organisation="itcollege" module="i377-praks1">
+		<ivyauthor name="Priit Liivak" url="mailto:priit.liivak@itcollege.ee" />
+	</info>
+
+	<configurations>
+		<conf name="build" extends="runtime,source"
+			description="Modules needed only for building application from source" />
+		<conf name="runtime" description="Modules needed for running application" />
+		<conf name="source" description="Sources of used jars" />
+	</configurations>
+
+	<dependencies>
+		<dependency org="javax.servlet" name="javax.servlet-api"
+			rev="3.0.1" conf="build->default" />
+
+		<dependency org="org.springframework" name="org.springframework.web"
+			rev="3.1.2.RELEASE" conf="source,runtime->default" />
+		<dependency org="org.springframework" name="org.springframework.web.servlet"
+			rev="3.1.2.RELEASE" conf="source,runtime->default" />
+		<dependency org="commons-logging" name="commons-logging"
+			rev="1.1.1" conf="runtime->default" />
+
+		<dependency org="cglib" name="cglib" rev="2.2.2" conf="runtime->default" />
+		<dependency org="org.codehaus.jackson" name="jackson-mapper-asl"
+			rev="1.9.10" conf="runtime->default" />
+
+		<dependency org="javax.servlet" name="jstl" rev="1.2"
+			conf="runtime->default" />
+
+		<dependency org="log4j" name="log4j" rev="1.2.16" conf="runtime->default" />
+
+		<dependency org="org.slf4j" name="slf4j-api" rev="1.6.6"
+			conf="runtime->default" />
+		<dependency org="org.slf4j" name="slf4j-log4j12" rev="1.6.6"
+			conf="runtime->default" />
+
+	</dependencies>
+</ivy-module>
