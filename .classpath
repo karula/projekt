@@ -33,5 +33,7 @@
 	<classpathentry kind="lib" path="lib/build/org.springframework.web-3.1.2.RELEASE.jar"/>
 	<classpathentry kind="lib" path="lib/build/slf4j-api-1.6.6.jar"/>
 	<classpathentry kind="lib" path="lib/build/slf4j-log4j12-1.6.6.jar"/>
+	<classpathentry kind="lib" path="lib/build/hibernate-entitymanager-4.1.7.Final.jar"/>
+	<classpathentry kind="lib" path="lib/build/hibernate-validator-4.3.0.Final.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

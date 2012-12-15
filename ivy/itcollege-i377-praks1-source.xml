@@ -7,14 +7,14 @@
 		revision="working@Raido-PC"
 		conf="source"
 		confs="build, runtime, source"
-		date="20121201171201"/>
+		date="20121213210457"/>
 	<dependencies>
 		<module organisation="org.springframework" name="org.springframework.web.servlet">
 			<revision name="3.1.2.RELEASE" status="release" pubdate="20120707195736" resolver="springsource-release" artresolver="springsource-release" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="8">
-				<metadata-artifact status="no" details="" size="9097" time="0" location="C:\Users\Raido\workspace\DynamicWebSpringProject\ivy\org.springframework\org.springframework.web.servlet\ivy-3.1.2.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.web.servlet/3.1.2.RELEASE/org.springframework.web.servlet-3.1.2.RELEASE.pom"/>
+				<metadata-artifact status="no" details="" size="9097" time="0" location="C:\Users\Raido\workspace\projekt\ivy\org.springframework\org.springframework.web.servlet\ivy-3.1.2.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.web.servlet/3.1.2.RELEASE/org.springframework.web.servlet-3.1.2.RELEASE.pom"/>
 				<caller organisation="itcollege" name="i377-praks1" conf="source" rev="3.1.2.RELEASE" rev-constraint-default="3.1.2.RELEASE" rev-constraint-dynamic="3.1.2.RELEASE" callerrev="working@Raido-PC"/>
 				<artifacts>
-					<artifact name="org.springframework.web.servlet" type="jar" ext="jar" status="no" details="" size="577502" time="0" location="C:\Users\Raido\workspace\DynamicWebSpringProject\ivy\org.springframework\org.springframework.web.servlet\jars\org.springframework.web.servlet-3.1.2.RELEASE.jar">
+					<artifact name="org.springframework.web.servlet" type="jar" ext="jar" status="no" details="" size="577502" time="0" location="C:\Users\Raido\workspace\projekt\ivy\org.springframework\org.springframework.web.servlet\jars\org.springframework.web.servlet-3.1.2.RELEASE.jar">
 						<origin-location is-local="false" location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.web.servlet/3.1.2.RELEASE/org.springframework.web.servlet-3.1.2.RELEASE.jar"/>
 					</artifact>
 				</artifacts>
@@ -22,10 +22,10 @@
 		</module>
 		<module organisation="org.springframework" name="org.springframework.context.support">
 			<revision name="3.1.2.RELEASE" status="release" pubdate="20120707195612" resolver="springsource-release" artresolver="springsource-release" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="9">
-				<metadata-artifact status="no" details="" size="5395" time="0" location="C:\Users\Raido\workspace\DynamicWebSpringProject\ivy\org.springframework\org.springframework.context.support\ivy-3.1.2.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.context.support/3.1.2.RELEASE/org.springframework.context.support-3.1.2.RELEASE.pom"/>
+				<metadata-artifact status="no" details="" size="5395" time="0" location="C:\Users\Raido\workspace\projekt\ivy\org.springframework\org.springframework.context.support\ivy-3.1.2.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.context.support/3.1.2.RELEASE/org.springframework.context.support-3.1.2.RELEASE.pom"/>
 				<caller organisation="org.springframework" name="org.springframework.web.servlet" conf="default, compile, runtime, master" rev="3.1.2.RELEASE" rev-constraint-default="3.1.2.RELEASE" rev-constraint-dynamic="3.1.2.RELEASE" callerrev="3.1.2.RELEASE"/>
 				<artifacts>
-					<artifact name="org.springframework.context.support" type="jar" ext="jar" status="no" details="" size="107014" time="0" location="C:\Users\Raido\workspace\DynamicWebSpringProject\ivy\org.springframework\org.springframework.context.support\jars\org.springframework.context.support-3.1.2.RELEASE.jar">
+					<artifact name="org.springframework.context.support" type="jar" ext="jar" status="no" details="" size="107014" time="0" location="C:\Users\Raido\workspace\projekt\ivy\org.springframework\org.springframework.context.support\jars\org.springframework.context.support-3.1.2.RELEASE.jar">
 						<origin-location is-local="false" location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.context.support/3.1.2.RELEASE/org.springframework.context.support-3.1.2.RELEASE.jar"/>
 					</artifact>
 				</artifacts>
@@ -33,11 +33,11 @@
 		</module>
 		<module organisation="org.springframework" name="org.springframework.web">
 			<revision name="3.1.2.RELEASE" status="release" pubdate="20120707195443" resolver="springsource-release" artresolver="springsource-release" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, master(*), compile(*), runtime, runtime(*), master" position="0">
-				<metadata-artifact status="no" details="" size="7053" time="0" location="C:\Users\Raido\workspace\DynamicWebSpringProject\ivy\org.springframework\org.springframework.web\ivy-3.1.2.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.web/3.1.2.RELEASE/org.springframework.web-3.1.2.RELEASE.pom"/>
+				<metadata-artifact status="no" details="" size="7053" time="0" location="C:\Users\Raido\workspace\projekt\ivy\org.springframework\org.springframework.web\ivy-3.1.2.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.web/3.1.2.RELEASE/org.springframework.web-3.1.2.RELEASE.pom"/>
 				<caller organisation="org.springframework" name="org.springframework.web.servlet" conf="default, compile, runtime, master" rev="3.1.2.RELEASE" rev-constraint-default="3.1.2.RELEASE" rev-constraint-dynamic="3.1.2.RELEASE" callerrev="3.1.2.RELEASE"/>
 				<caller organisation="itcollege" name="i377-praks1" conf="source" rev="3.1.2.RELEASE" rev-constraint-default="3.1.2.RELEASE" rev-constraint-dynamic="3.1.2.RELEASE" callerrev="working@Raido-PC"/>
 				<artifacts>
-					<artifact name="org.springframework.web" type="jar" ext="jar" status="no" details="" size="548703" time="0" location="C:\Users\Raido\workspace\DynamicWebSpringProject\ivy\org.springframework\org.springframework.web\jars\org.springframework.web-3.1.2.RELEASE.jar">
+					<artifact name="org.springframework.web" type="jar" ext="jar" status="no" details="" size="548703" time="0" location="C:\Users\Raido\workspace\projekt\ivy\org.springframework\org.springframework.web\jars\org.springframework.web-3.1.2.RELEASE.jar">
 						<origin-location is-local="false" location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.web/3.1.2.RELEASE/org.springframework.web-3.1.2.RELEASE.jar"/>
 					</artifact>
 				</artifacts>
@@ -45,12 +45,12 @@
 		</module>
 		<module organisation="org.springframework" name="org.springframework.context">
 			<revision name="3.1.2.RELEASE" status="release" pubdate="20120707195056" resolver="springsource-release" artresolver="springsource-release" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="6">
-				<metadata-artifact status="no" details="" size="7579" time="0" location="C:\Users\Raido\workspace\DynamicWebSpringProject\ivy\org.springframework\org.springframework.context\ivy-3.1.2.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.context/3.1.2.RELEASE/org.springframework.context-3.1.2.RELEASE.pom"/>
+				<metadata-artifact status="no" details="" size="7579" time="0" location="C:\Users\Raido\workspace\projekt\ivy\org.springframework\org.springframework.context\ivy-3.1.2.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.context/3.1.2.RELEASE/org.springframework.context-3.1.2.RELEASE.pom"/>
 				<caller organisation="org.springframework" name="org.springframework.context.support" conf="compile, runtime" rev="3.1.2.RELEASE" rev-constraint-default="3.1.2.RELEASE" rev-constraint-dynamic="3.1.2.RELEASE" callerrev="3.1.2.RELEASE"/>
 				<caller organisation="org.springframework" name="org.springframework.web.servlet" conf="default, compile, runtime, master" rev="3.1.2.RELEASE" rev-constraint-default="3.1.2.RELEASE" rev-constraint-dynamic="3.1.2.RELEASE" callerrev="3.1.2.RELEASE"/>
 				<caller organisation="org.springframework" name="org.springframework.web" conf="default, compile, runtime, master" rev="3.1.2.RELEASE" rev-constraint-default="3.1.2.RELEASE" rev-constraint-dynamic="3.1.2.RELEASE" callerrev="3.1.2.RELEASE"/>
 				<artifacts>
-					<artifact name="org.springframework.context" type="jar" ext="jar" status="no" details="" size="832018" time="0" location="C:\Users\Raido\workspace\DynamicWebSpringProject\ivy\org.springframework\org.springframework.context\jars\org.springframework.context-3.1.2.RELEASE.jar">
+					<artifact name="org.springframework.context" type="jar" ext="jar" status="no" details="" size="832018" time="0" location="C:\Users\Raido\workspace\projekt\ivy\org.springframework\org.springframework.context\jars\org.springframework.context-3.1.2.RELEASE.jar">
 						<origin-location is-local="false" location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.context/3.1.2.RELEASE/org.springframework.context-3.1.2.RELEASE.jar"/>
 					</artifact>
 				</artifacts>
@@ -58,11 +58,11 @@
 		</module>
 		<module organisation="org.springframework" name="org.springframework.expression">
 			<revision name="3.1.2.RELEASE" status="release" pubdate="20120707194825" resolver="springsource-release" artresolver="springsource-release" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="7">
-				<metadata-artifact status="no" details="" size="3012" time="0" location="C:\Users\Raido\workspace\DynamicWebSpringProject\ivy\org.springframework\org.springframework.expression\ivy-3.1.2.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.expression/3.1.2.RELEASE/org.springframework.expression-3.1.2.RELEASE.pom"/>
+				<metadata-artifact status="no" details="" size="3012" time="0" location="C:\Users\Raido\workspace\projekt\ivy\org.springframework\org.springframework.expression\ivy-3.1.2.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.expression/3.1.2.RELEASE/org.springframework.expression-3.1.2.RELEASE.pom"/>
 				<caller organisation="org.springframework" name="org.springframework.context" conf="compile, runtime" rev="3.1.2.RELEASE" rev-constraint-default="3.1.2.RELEASE" rev-constraint-dynamic="3.1.2.RELEASE" callerrev="3.1.2.RELEASE"/>
 				<caller organisation="org.springframework" name="org.springframework.web.servlet" conf="default, compile, runtime, master" rev="3.1.2.RELEASE" rev-constraint-default="3.1.2.RELEASE" rev-constraint-dynamic="3.1.2.RELEASE" callerrev="3.1.2.RELEASE"/>
 				<artifacts>
-					<artifact name="org.springframework.expression" type="jar" ext="jar" status="no" details="" size="176087" time="0" location="C:\Users\Raido\workspace\DynamicWebSpringProject\ivy\org.springframework\org.springframework.expression\jars\org.springframework.expression-3.1.2.RELEASE.jar">
+					<artifact name="org.springframework.expression" type="jar" ext="jar" status="no" details="" size="176087" time="0" location="C:\Users\Raido\workspace\projekt\ivy\org.springframework\org.springframework.expression\jars\org.springframework.expression-3.1.2.RELEASE.jar">
 						<origin-location is-local="false" location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.expression/3.1.2.RELEASE/org.springframework.expression-3.1.2.RELEASE.jar"/>
 					</artifact>
 				</artifacts>
@@ -70,11 +70,11 @@
 		</module>
 		<module organisation="org.springframework" name="org.springframework.aop">
 			<revision name="3.1.2.RELEASE" status="release" pubdate="20120707194956" resolver="springsource-release" artresolver="springsource-release" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="2">
-				<metadata-artifact status="no" details="" size="4174" time="0" location="C:\Users\Raido\workspace\DynamicWebSpringProject\ivy\org.springframework\org.springframework.aop\ivy-3.1.2.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.aop/3.1.2.RELEASE/org.springframework.aop-3.1.2.RELEASE.pom"/>
+				<metadata-artifact status="no" details="" size="4174" time="0" location="C:\Users\Raido\workspace\projekt\ivy\org.springframework\org.springframework.aop\ivy-3.1.2.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.aop/3.1.2.RELEASE/org.springframework.aop-3.1.2.RELEASE.pom"/>
 				<caller organisation="org.springframework" name="org.springframework.context" conf="compile, runtime" rev="3.1.2.RELEASE" rev-constraint-default="3.1.2.RELEASE" rev-constraint-dynamic="3.1.2.RELEASE" callerrev="3.1.2.RELEASE"/>
 				<caller organisation="org.springframework" name="org.springframework.web" conf="default, compile, runtime, master" rev="3.1.2.RELEASE" rev-constraint-default="3.1.2.RELEASE" rev-constraint-dynamic="3.1.2.RELEASE" callerrev="3.1.2.RELEASE"/>
 				<artifacts>
-					<artifact name="org.springframework.aop" type="jar" ext="jar" status="no" details="" size="332641" time="0" location="C:\Users\Raido\workspace\DynamicWebSpringProject\ivy\org.springframework\org.springframework.aop\jars\org.springframework.aop-3.1.2.RELEASE.jar">
+					<artifact name="org.springframework.aop" type="jar" ext="jar" status="no" details="" size="332641" time="0" location="C:\Users\Raido\workspace\projekt\ivy\org.springframework\org.springframework.aop\jars\org.springframework.aop-3.1.2.RELEASE.jar">
 						<origin-location is-local="false" location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.aop/3.1.2.RELEASE/org.springframework.aop-3.1.2.RELEASE.jar"/>
 					</artifact>
 				</artifacts>
@@ -82,14 +82,14 @@
 		</module>
 		<module organisation="org.springframework" name="org.springframework.beans">
 			<revision name="3.1.2.RELEASE" status="release" pubdate="20120707194909" resolver="springsource-release" artresolver="springsource-release" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="3">
-				<metadata-artifact status="no" details="" size="3880" time="0" location="C:\Users\Raido\workspace\DynamicWebSpringProject\ivy\org.springframework\org.springframework.beans\ivy-3.1.2.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.beans/3.1.2.RELEASE/org.springframework.beans-3.1.2.RELEASE.pom"/>
+				<metadata-artifact status="no" details="" size="3880" time="0" location="C:\Users\Raido\workspace\projekt\ivy\org.springframework\org.springframework.beans\ivy-3.1.2.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.beans/3.1.2.RELEASE/org.springframework.beans-3.1.2.RELEASE.pom"/>
 				<caller organisation="org.springframework" name="org.springframework.aop" conf="compile, runtime" rev="3.1.2.RELEASE" rev-constraint-default="3.1.2.RELEASE" rev-constraint-dynamic="3.1.2.RELEASE" callerrev="3.1.2.RELEASE"/>
 				<caller organisation="org.springframework" name="org.springframework.context.support" conf="compile, runtime" rev="3.1.2.RELEASE" rev-constraint-default="3.1.2.RELEASE" rev-constraint-dynamic="3.1.2.RELEASE" callerrev="3.1.2.RELEASE"/>
 				<caller organisation="org.springframework" name="org.springframework.context" conf="compile, runtime" rev="3.1.2.RELEASE" rev-constraint-default="3.1.2.RELEASE" rev-constraint-dynamic="3.1.2.RELEASE" callerrev="3.1.2.RELEASE"/>
 				<caller organisation="org.springframework" name="org.springframework.web.servlet" conf="default, compile, runtime, master" rev="3.1.2.RELEASE" rev-constraint-default="3.1.2.RELEASE" rev-constraint-dynamic="3.1.2.RELEASE" callerrev="3.1.2.RELEASE"/>
 				<caller organisation="org.springframework" name="org.springframework.web" conf="default, compile, runtime, master" rev="3.1.2.RELEASE" rev-constraint-default="3.1.2.RELEASE" rev-constraint-dynamic="3.1.2.RELEASE" callerrev="3.1.2.RELEASE"/>
 				<artifacts>
-					<artifact name="org.springframework.beans" type="jar" ext="jar" status="no" details="" size="592232" time="0" location="C:\Users\Raido\workspace\DynamicWebSpringProject\ivy\org.springframework\org.springframework.beans\jars\org.springframework.beans-3.1.2.RELEASE.jar">
+					<artifact name="org.springframework.beans" type="jar" ext="jar" status="no" details="" size="592232" time="0" location="C:\Users\Raido\workspace\projekt\ivy\org.springframework\org.springframework.beans\jars\org.springframework.beans-3.1.2.RELEASE.jar">
 						<origin-location is-local="false" location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.beans/3.1.2.RELEASE/org.springframework.beans-3.1.2.RELEASE.jar"/>
 					</artifact>
 				</artifacts>
@@ -97,7 +97,7 @@
 		</module>
 		<module organisation="org.springframework" name="org.springframework.core">
 			<revision name="3.1.2.RELEASE" status="release" pubdate="20120707194741" resolver="springsource-release" artresolver="springsource-release" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="4">
-				<metadata-artifact status="no" details="" size="3837" time="0" location="C:\Users\Raido\workspace\DynamicWebSpringProject\ivy\org.springframework\org.springframework.core\ivy-3.1.2.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.core/3.1.2.RELEASE/org.springframework.core-3.1.2.RELEASE.pom"/>
+				<metadata-artifact status="no" details="" size="3837" time="0" location="C:\Users\Raido\workspace\projekt\ivy\org.springframework\org.springframework.core\ivy-3.1.2.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.core/3.1.2.RELEASE/org.springframework.core-3.1.2.RELEASE.pom"/>
 				<caller organisation="org.springframework" name="org.springframework.aop" conf="compile, runtime" rev="3.1.2.RELEASE" rev-constraint-default="3.1.2.RELEASE" rev-constraint-dynamic="3.1.2.RELEASE" callerrev="3.1.2.RELEASE"/>
 				<caller organisation="org.springframework" name="org.springframework.context.support" conf="compile, runtime" rev="3.1.2.RELEASE" rev-constraint-default="3.1.2.RELEASE" rev-constraint-dynamic="3.1.2.RELEASE" callerrev="3.1.2.RELEASE"/>
 				<caller organisation="org.springframework" name="org.springframework.context" conf="compile, runtime" rev="3.1.2.RELEASE" rev-constraint-default="3.1.2.RELEASE" rev-constraint-dynamic="3.1.2.RELEASE" callerrev="3.1.2.RELEASE"/>
@@ -106,7 +106,7 @@
 				<caller organisation="org.springframework" name="org.springframework.expression" conf="compile, runtime" rev="3.1.2.RELEASE" rev-constraint-default="3.1.2.RELEASE" rev-constraint-dynamic="3.1.2.RELEASE" callerrev="3.1.2.RELEASE"/>
 				<caller organisation="org.springframework" name="org.springframework.web" conf="default, compile, runtime, master" rev="3.1.2.RELEASE" rev-constraint-default="3.1.2.RELEASE" rev-constraint-dynamic="3.1.2.RELEASE" callerrev="3.1.2.RELEASE"/>
 				<artifacts>
-					<artifact name="org.springframework.core" type="jar" ext="jar" status="no" details="" size="449649" time="0" location="C:\Users\Raido\workspace\DynamicWebSpringProject\ivy\org.springframework\org.springframework.core\jars\org.springframework.core-3.1.2.RELEASE.jar">
+					<artifact name="org.springframework.core" type="jar" ext="jar" status="no" details="" size="449649" time="0" location="C:\Users\Raido\workspace\projekt\ivy\org.springframework\org.springframework.core\jars\org.springframework.core-3.1.2.RELEASE.jar">
 						<origin-location is-local="false" location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.core/3.1.2.RELEASE/org.springframework.core-3.1.2.RELEASE.jar"/>
 					</artifact>
 				</artifacts>
@@ -114,11 +114,11 @@
 		</module>
 		<module organisation="org.springframework" name="org.springframework.asm">
 			<revision name="3.1.2.RELEASE" status="release" pubdate="20120707194530" resolver="springsource-release" artresolver="springsource-release" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="5">
-				<metadata-artifact status="no" details="" size="2703" time="0" location="C:\Users\Raido\workspace\DynamicWebSpringProject\ivy\org.springframework\org.springframework.asm\ivy-3.1.2.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.asm/3.1.2.RELEASE/org.springframework.asm-3.1.2.RELEASE.pom"/>
+				<metadata-artifact status="no" details="" size="2703" time="0" location="C:\Users\Raido\workspace\projekt\ivy\org.springframework\org.springframework.asm\ivy-3.1.2.RELEASE.xml" searched="false" origin-is-local="false" origin-location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.asm/3.1.2.RELEASE/org.springframework.asm-3.1.2.RELEASE.pom"/>
 				<caller organisation="org.springframework" name="org.springframework.context" conf="compile, runtime" rev="3.1.2.RELEASE" rev-constraint-default="3.1.2.RELEASE" rev-constraint-dynamic="3.1.2.RELEASE" callerrev="3.1.2.RELEASE"/>
 				<caller organisation="org.springframework" name="org.springframework.beans" conf="compile, runtime" rev="3.1.2.RELEASE" rev-constraint-default="3.1.2.RELEASE" rev-constraint-dynamic="3.1.2.RELEASE" callerrev="3.1.2.RELEASE"/>
 				<artifacts>
-					<artifact name="org.springframework.asm" type="jar" ext="jar" status="no" details="" size="53082" time="0" location="C:\Users\Raido\workspace\DynamicWebSpringProject\ivy\org.springframework\org.springframework.asm\jars\org.springframework.asm-3.1.2.RELEASE.jar">
+					<artifact name="org.springframework.asm" type="jar" ext="jar" status="no" details="" size="53082" time="0" location="C:\Users\Raido\workspace\projekt\ivy\org.springframework\org.springframework.asm\jars\org.springframework.asm-3.1.2.RELEASE.jar">
 						<origin-location is-local="false" location="http://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.asm/3.1.2.RELEASE/org.springframework.asm-3.1.2.RELEASE.jar"/>
 					</artifact>
 				</artifacts>
@@ -126,11 +126,11 @@
 		</module>
 		<module organisation="org.aopalliance" name="com.springsource.org.aopalliance">
 			<revision name="1.0.0" status="release" pubdate="20090204152025" resolver="springsource-external" artresolver="springsource-external" homepage="" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="1">
-				<metadata-artifact status="no" details="" size="2383" time="0" location="C:\Users\Raido\workspace\DynamicWebSpringProject\ivy\org.aopalliance\com.springsource.org.aopalliance\ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="http://repository.springsource.com/maven/bundles/external/org/aopalliance/com.springsource.org.aopalliance/1.0.0/com.springsource.org.aopalliance-1.0.0.pom"/>
+				<metadata-artifact status="no" details="" size="2383" time="0" location="C:\Users\Raido\workspace\projekt\ivy\org.aopalliance\com.springsource.org.aopalliance\ivy-1.0.0.xml" searched="false" origin-is-local="false" origin-location="http://repository.springsource.com/maven/bundles/external/org/aopalliance/com.springsource.org.aopalliance/1.0.0/com.springsource.org.aopalliance-1.0.0.pom"/>
 				<caller organisation="org.springframework" name="org.springframework.aop" conf="compile, runtime" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="3.1.2.RELEASE"/>
 				<caller organisation="org.springframework" name="org.springframework.web" conf="default, compile, runtime, master" rev="1.0.0" rev-constraint-default="1.0.0" rev-constraint-dynamic="1.0.0" callerrev="3.1.2.RELEASE"/>
 				<artifacts>
-					<artifact name="com.springsource.org.aopalliance" type="jar" ext="jar" status="no" details="" size="4615" time="0" location="C:\Users\Raido\workspace\DynamicWebSpringProject\ivy\org.aopalliance\com.springsource.org.aopalliance\jars\com.springsource.org.aopalliance-1.0.0.jar">
+					<artifact name="com.springsource.org.aopalliance" type="jar" ext="jar" status="no" details="" size="4615" time="0" location="C:\Users\Raido\workspace\projekt\ivy\org.aopalliance\com.springsource.org.aopalliance\jars\com.springsource.org.aopalliance-1.0.0.jar">
 						<origin-location is-local="false" location="http://repository.springsource.com/maven/bundles/external/org/aopalliance/com.springsource.org.aopalliance/1.0.0/com.springsource.org.aopalliance-1.0.0.jar"/>
 					</artifact>
 				</artifacts>

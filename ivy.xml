@@ -39,6 +39,9 @@
 			conf="runtime->default" />
 		<dependency org="org.slf4j" name="slf4j-log4j12" rev="1.6.6"
 			conf="runtime->default" />
-
+		<dependency org="org.hibernate" name="hibernate-entitymanager" rev="4.1.7.Final"
+			conf="runtime->default" />
+		<dependency org="org.hibernate" name="hibernate-validator" rev="4.3.0.Final"
+			conf="runtime->default"/>
 	</dependencies>
 </ivy-module>
