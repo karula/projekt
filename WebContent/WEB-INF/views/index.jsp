@@ -4,7 +4,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <pr:main>
-	<a href="piiripunktForm">Piiripunktid</a><br/>
+	<a href="piiripunkt">Piiripunktid</a><br/>
 	<a href="piiriloik">Piiriloigud</a><br/>
 	<a href="vahtkond">Vahtkonnad</a><br/>
 	<a href="addvahtkondpiiriloigul">Lisa vahtkond piirilõigul</a><br/>
