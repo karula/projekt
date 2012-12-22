@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.7.0_10">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre7">
 		<attributes>
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
@@ -36,7 +36,7 @@
 	<classpathentry kind="lib" path="lib/build/hibernate-entitymanager-4.1.7.Final.jar"/>
 	<classpathentry kind="lib" path="lib/build/hibernate-validator-4.3.0.Final.jar"/>
 	<classpathentry kind="lib" path="ivy/hsqldb/hsqldb/jars/hsqldb-1.8.0.10.jar"/>
-	<classpathentry kind="lib" path="lib/build/hsqldb-1.8.0.10.jar"/>
+	<classpathentry kind="lib" path="lib/build/hsqldb-2.0.0.jar"/>
 	<classpathentry kind="lib" path="lib/build/antlr-2.7.7.jar"/>
 	<classpathentry kind="lib" path="lib/build/dom4j-1.6.1.jar"/>
 	<classpathentry kind="lib" path="lib/build/hibernate-commons-annotations-4.0.1.Final.jar"/>

@@ -67,6 +67,7 @@
 		<copy file="${src.dir}/META-INF/persistence.xml" todir="${classes.dir}/META-INF" overwrite="true" />
 		<war basedir="${web.dir}" destfile="${dist.dir}/${project.name}-${team.name}.war" webxml="${web-inf.dir}/web.xml" />
 		<delete file="${dist.dir}/web.xml" />
+		
 	</target>
 
 </project>
