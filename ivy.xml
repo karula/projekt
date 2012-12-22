@@ -43,8 +43,6 @@
 			conf="runtime->default" />
 		<dependency org="org.hibernate" name="hibernate-validator" rev="4.3.0.Final"
 			conf="runtime->default"/>
-			 <dependency org="hsqldb" 
-      name="hsqldb" 
-      rev="1.8.0.10" />
+			 <dependency org="org.hsqldb" name="hsqldb" rev="2.0.0"/>
 	</dependencies>
 </ivy-module>
